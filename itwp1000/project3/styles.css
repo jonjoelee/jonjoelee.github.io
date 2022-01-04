@@ -1,0 +1,88 @@
+
+
+.heart{
+    margin-right: 5px;
+}
+.joly{
+    position: absolute;
+    margin-left: 40%;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+.logo{
+    position: relative;
+}
+.fixedone{
+    position: absolute;
+    top: 35%;
+    right: 16%;
+   -webkit-text-stroke: .01px;
+
+}
+.fixedtwo{
+    position: absolute;
+    top: 35%;
+    right: 45%;
+}
+.para{
+    padding: 0px;
+    margin: 5px;
+    font-weight: 600;
+}
+.paratwo{
+    padding: 0px;
+    margin: 5px;
+    font-weight: 500;
+}
+.weight{
+    font-weight: 600;
+}
+
+.center{
+    text-align: center;
+}
+.titlecenter{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.question{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.container{
+    text-align: center;
+}
+.unorlist{
+list-style: none;
+display: flex;
+justify-content: space-around;
+}
+.questionimg{
+    max-height: 325px;
+    /* size: contain; */
+}
+#background{
+background-image: url(https://images.unsplash.com/photo-1512790941078-1158a9cc3255?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGN1dGUlMjBjb3VwbGVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+z-index: -1;
+}
+    @media only all and (max-width:1024px){
+    
+        .joly{
+            margin-left: 34%;
+        }
+    
+    }
+
+
+    @media only all and (max-width:768px){
+    
+    .joly{
+        margin-left: 30%;
+    }
+
+}
+

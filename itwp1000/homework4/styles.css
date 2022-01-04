@@ -1,0 +1,90 @@
+/* CSS Style sheet for the week 4 homework assignment */
+/* Jon Joly */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+table{
+    border:none;
+    width: 750px;
+    padding: 0;
+    margin: auto;
+}
+h1{
+    color: #0066cc;/*coolblue*/
+
+}
+h3{
+    color: #0066cc;/*coolblue*/
+    background-color: #eee;
+    padding: 5px;
+    border-radius: 5px;
+    max-width: 150px;
+}
+h5{
+    color: #000000;
+    font-style: italic;
+    /* h5 applied styles are italic & black fonts */
+}
+hr{
+    border: none;
+    border-top: 1px dotted #000000;/*the border*/
+    height: 1px;
+}
+
+img{
+    float:right;
+    border: 1px solid #000000;
+    border-right:3px solid #000000;
+    border-bottom: 3px solid #000000;
+    margin: 0px 5px 10px 10px;
+}
+div{
+    display: flex;
+    justify-content: space-between;
+}
+/* list styles */
+ul li{
+list-style-type: square;
+color:#666666;
+list-style-position: inside;
+}
+
+/* pseudo classes */
+a:link{
+color:#0066cc;/*coolblue*/
+}
+a:visited{
+    color: #0066cc;
+}
+a:hover{
+    text-decoration: none;
+    color:#ff9900;/*yellow*/
+    font-weight: bold;
+}
+a:active{
+    text-decoration: underline;
+    color:#0066cc;/*coolblue*/
+}
+
+/* classes */
+.travel_tip{
+background-color: #ff9900;
+padding: 5px 5px 5px 5px;
+border: 1px solid black;
+margin: 40px 5px 5px 0px;
+}
+.quote{
+font-style: italic;
+margin: 10px;
+color: #666666;
+}
+.course_link_container{
+    text-align: right;
+}
+/* id */
+#copyright{
+    font-size: 9px;
+    font-style: italic;
+    text-align: center;
+}

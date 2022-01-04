@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="robots" content="index, follow">
+    <meta charset="UTF-8">
+    <meta name="author" content="Jon Joly">
+    <meta name="description" content="Submit your photo to be voted on Portraits of Humanity.">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submission page for image files for the photo gallery contest</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+    <!-- WELCOME PAGE -->
+
+
+    <!-- AddToAny BEGIN -->
+
+    <div class="socials a2a_kit a2a_kit_size_32 a2a_default_style">
+        <a class="a2a_button_facebook"></a>
+        <a class="a2a_button_linkedin"></a>
+        <a class="a2a_button_twitter"></a>
+        <a class="a2a_button_google_gmail"></a>
+        <a class="a2a_button_email"></a>
+    </div>
+    <script>
+        var a2a_config = a2a_config || {};
+        a2a_config.num_services = 5;
+    </script>
+    <script async src="https://static.addtoany.com/menu/page.js"></script>
+    <!-- AddToAny END -->
+
+    <main>
+
+        <header>
+
+            <nav class="top_nav"><a href="../home.htm" class="navbarlinks">Course Home Page</a><a href="index.htm"
+                    class="navbarlinks">Home Page</a>
+                <a href="categories.html" class="navbarlinks">Categories</a><a href="submit.html"
+                    class="navbarlinks">Submit</a><a href="vote.html" class="navbarlinks">Vote</a><a href="winners.html"
+                    class="navbarlinks">Winners</a><a href="chatroom.html" class="navbarlinks">Chat
+                    Room</a><a href="rules.html" class="navbarlinks">Rules</a>
+            </nav>
+
+
+        </header>
+        <div class="maintext">
+            <h2>Submit</h2>
+            <br>
+            <p>Please use the form below to submit your photo. Be sure to fill out each field as they're all required.
+                If your photo is accepted you will get a confirmation email within a few days. If chosen as a winner you
+                will receive a notification email at the email you provide. Remember there are three categories and use
+                can make multiple submissions for different categories but only one at a time. </p>
+            <br>
+            <p>Feeling bored and already made your own photo submission? Hop over to the ChatroomLINK! Leave a question
+                or comment if no one is there and maybe when you return to the site someone will have left a thoughtful
+                reply. If there are any questions or concerns related to the site whether its about functionality
+                submissions or something else feel free to contact me with the clickable link at the bottom of each web
+                page titled 'Click here to send me a personal email'. Thank you again for visiting Portraits of
+                Humanity, I hope today you find inspiration, motivation, and peace.</p>
+        </div>
+        <h2 class="submissions">Submissions</h2>
+        <form class="submitform" action="mailto:someone@email.com" method="post">
+            <label for="email">Email:
+                <input type="email" name="email" id="email" required>
+            </label>
+            <label for="name">Name:
+                <input type="text" name="name" id="name">
+            </label>
+            <label for="description">Photo description:
+                <input type="text" name="description" id="description">
+            </label>
+
+            <p class="submitnote">*Note: you will attach the image file AFTER hitting the submit button. Upon
+                pressing submit your email
+                should open and from there you can add the image file as an attachment to the email.</p>
+
+            <div>
+                <input class="submit submitimage" type="submit" value="Submit">
+            </div>
+        </form>
+
+
+    </main>
+    <footer>
+        <script src="javascript/script.js"></script>
+
+    </footer>
+
+
+</body>
+
+</html>
